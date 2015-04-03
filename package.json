@@ -1,0 +1,23 @@
+{
+  "name": "meta-blob-store",
+  "version": "1.0.0",
+  "description": "Combine lots of blob-stores into one",
+  "main": "index.js",
+  "scripts": {
+      "test": "node test"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/bengl/meta-blob-store"
+  },
+  "author": "Bryan English <bryan@bryanenglish.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "abstract-blob-store": "^3.2.0",
+    "tape": "^3.5.0"
+  },
+  "bugs": {
+      "url": "https://github.com/bengl/meta-blob-store/issues"
+  },
+  "homepage": "https://github.com/bengl/meta-blob-store"
+}
