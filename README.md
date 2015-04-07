@@ -1,5 +1,7 @@
 # meta-blob-store
 
+[![blob-store-compatible](https://raw.githubusercontent.com/maxogden/abstract-blob-store/master/badge.png)](https://github.com/maxogden/abstract-blob-store)
+
 This is a way of tying together several different [blob-stores](https://www.npmjs.com/package/abstract-blob-store) to operate as one.
 
 The module exports a single function taking in a config object, and returns a blob-store. The properties of the config object
